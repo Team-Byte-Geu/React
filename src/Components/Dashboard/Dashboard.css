@@ -1,0 +1,41 @@
+
+.card-image{
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border-radius: 25px;
+}
+
+.card-main{
+    background-color: rgba(0, 0, 0, 0.371);
+    border-radius: 20px;
+    color: white;
+}
+
+.container-item{
+    background-color:  rgba(0, 0, 0, 0.57);
+    border-radius: 20px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin: 20px;
+}
+.cart-icon{
+    color: white;
+}
+.cart-icon:hover{
+    color: #00ff10;
+}
+
+.item-heading{
+    font-size: 35px;
+    background:-webkit-linear-gradient(#ffff,#00ff10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-cart{
+    background-color: transparent;
+    border: none;
+}

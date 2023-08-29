@@ -1,0 +1,19 @@
+
+.hero{
+    height: 60px;
+    width: auto;
+    filter: invert(1) contrast(175%);
+    
+}
+.nav-item{
+    text-decoration: none;
+    color: #ffff;
+}
+.nav-item li{
+    list-style: none;
+    text-decoration: none;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ffff;
+}

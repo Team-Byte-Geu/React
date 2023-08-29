@@ -1,0 +1,79 @@
+.contact{
+    background-image: url('src/assets/image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+.form{
+    background-image: url('src/assets/image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading{
+    padding-bottom:1rem;
+    margin-bottom:.6rem;
+    border-bottom: 2px solid white;
+    text-align: center;
+
+}
+.cont-form{
+    margin:auto;
+    padding:2rem;
+    font-size: large;
+    color:#f6f6f6;
+    background-color: rgba(48, 55, 34, 0.875);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.4) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content:center;
+    align-items:center;
+}
+.cont-form > *{
+    width: 93%;
+}
+
+.btn{
+    align-self: center;
+    padding: 0.5rem;
+    width : 120px;
+    cursor: pointer;
+    background-color: rgba(122, 15, 223, 0.947);
+    color: white;
+    border-radius: 5px;
+    border:0px;
+}
+.btn:hover{
+    background-color: rgba(123, 15, 223, 0.736);
+}
+.field{
+    padding:8px;
+    width:100%;
+    border:1px solid black;
+    border-radius: 2px;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.878);
+}
+.border{
+    border:9px solid slateblue
+}
+.form > *{
+    flex-basis: 0;
+}
+.label span{
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+small > a{
+    color: wheat;
+    text-decoration: none;
+}
+
+small{
+    font-size: small;
+}

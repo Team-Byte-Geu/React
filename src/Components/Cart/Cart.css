@@ -1,0 +1,20 @@
+.cart{
+    background-image: url('src/assets/image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 85vh;
+    color: white;
+}
+.promo-input{
+    width: 300px;
+}
+.cart-btn{
+    background-color: black;
+    color: #ffff;
+    border: none;
+}
+.payment-card{
+    background-color: #212529;
+    color: #ffff;
+}

@@ -1,0 +1,14 @@
+footer{
+    background: linear-gradient(
+        100deg,
+        var(--lingrad1),
+        var(--lingrad2)
+        );
+        color: white;
+        display: flex;
+        justify-content: center;
+}
+footer li{
+    list-style: none;
+    margin: 20px;
+}

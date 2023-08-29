@@ -1,0 +1,23 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Courier New', Courier, monospace */
+}
+
+:root{
+  --bgImage: url('src/assets/image.png');
+  --lingrad1: rgba(88, 92, 90, 0.634);
+  --lingrad2: rgba(0, 0, 0, 0.896);
+  --navlink-color: green
+   /* rgb(247, 247, 243); */
+}
+
+.main-div{
+  background-image: var(--bgImage);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

@@ -1,0 +1,20 @@
+
+.ads{
+    background-color: aqua;
+    padding: 50px;
+}
+.ads-images{
+    border-radius: 20px;
+    width: 60vw;
+    height: 70vh;
+}
+
+
+@media (max-width: 480px) {
+    .ads-images{
+        border-radius: 20px;
+        width: 80vw;
+        height: 40vh;
+    }
+      
+}
